@@ -46,4 +46,4 @@ The repository is being prepared to document the existing voice lead qualificati
 
 ## Disclaimer
 
-This repository documents an automation project for demonstration and learning purposes. Any sample lead information should be fictional and must not contain private customer data.
+This repository documents an automation project for demonstration and learning purposes. Any sample lead information found is fictional and does not contain private customer data.
