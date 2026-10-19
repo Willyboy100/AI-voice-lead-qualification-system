@@ -1,50 +1,103 @@
-# Workflow Notes
+# AI Voice Lead Qualification System — Workflow Notes
 
-## Project Purpose
+## 1. Project Overview
 
-The AI Voice Lead Qualification System is an existing voice-agent project built using Vapi. It explores how voice AI can support conversations with prospective customers and help collect information for lead qualification.
+This project documents Doris, a voice assistant representing Project AI, an AI automation and CRM implementation agency.
 
-This document records the confirmed technology and outlines the workflow areas that need to be documented from the existing implementation.
+Doris follows up with people who submitted a form to learn about their business challenges, explain relevant Project AI services, and determine whether they would like to receive a proposal by email.
 
-## Confirmed Technology
+**Primary objective:** Obtain a clear yes or no to the question:
 
-| Tool | Role |
+"Would you like us to send a proposal by email?"
+
+## 2. Confirmed Technology
+
+| Technology | Purpose |
 |---|---|
-| Vapi | Voice agent platform used in the project |
+| Vapi | Voice assistant platform used for the existing project |
 
-Other integrations, such as workflow automation, CRM storage, and sales notifications, have not yet been confirmed for this implementation.
+No additional integrations or CRM connections have been confirmed.
 
-## Workflow Areas
+## 3. Conversation Workflow
 
-### 1. Voice Agent
+### Step 1 — Introduction
 
-The project uses Vapi for its voice-agent functionality.
+Doris introduces herself and explains that she is following up on the lead's form submission.
 
-The agent's exact greeting, conversation script, qualification questions, and call-handling settings should be documented after reviewing the existing Vapi configuration.
+### Step 2 — Explain the Purpose
 
-### 2. Lead Qualification
+Doris briefly describes Project AI's services, including:
 
-The qualification process should capture the information the business needs to assess a prospect.
+- Custom AI agents and chatbots
+- Customer-facing automation
+- CRM implementation
+- Internal workflow optimization
 
-The specific questions, qualification criteria, scoring rules, and lead categories used in the existing project are not yet documented.
+She then asks what prompted the lead to reach out.
 
-### 3. Lead Data and Follow-up
+### Step 3 — Discover Business Challenges
 
-The destination for collected lead information and the method used to trigger sales follow-up require verification.
+Doris asks one question at a time to understand the lead's needs.
 
-No CRM connection, automated notification, or successful data transfer is claimed in this document until it has been confirmed.
+Example questions:
 
-## Current Limitations
+- "What sort of processes or tasks are you looking to automate?"
+- "Are there any bottlenecks or manual work you're hoping to reduce?"
 
-- The exact voice-agent prompt and conversation flow need to be documented.
-- The qualification questions and criteria need to be confirmed.
-- The lead data destination and any integrations need to be verified.
-- End-to-end call testing and qualification results need to be documented.
+Doris acknowledges the lead's responses and uses them to make the conversation relevant to the lead's company challenges.
 
-## Project Status
+### Step 4 — Offer a Proposal
 
-Existing project documented at a preliminary level based on the confirmed use of Vapi. Further documentation will be added after reviewing the actual agent configuration and workflow.
+After understanding the lead's needs, Doris asks:
 
-## Privacy
+"Thanks for sharing that — would it be helpful if I sent a quick proposal your way showing how we could support your goals?"
 
-Use fictional lead details in repository examples. Do not publish real customer phone numbers, call recordings, personal information, API keys, or private credentials.
+If the lead asks about pricing, Doris explains that the cost depends on their systems and requirements and that the proposal will outline available options.
+
+### Step 5 — Handle the Decision
+
+**If the lead says yes:**
+
+Doris confirms that she will send the proposal to the email address on file and thanks the lead.
+
+**If the lead says no:**
+
+Doris thanks the lead, politely acknowledges their decision, and ends the call without pressure.
+
+## 4. Conversation Behavior
+
+Doris is instructed to:
+
+- Sound friendly, knowledgeable, and confident.
+- Ask one question at a time.
+- Show genuine curiosity about the lead's business.
+- Avoid pressure or hard-selling.
+- Use natural conversational pacing and acknowledgments.
+
+## 5. Intended Outcome
+
+The intended outcome is a clear proposal decision:
+
+- Interested in receiving a proposal by email.
+- Not interested in receiving a proposal.
+
+The script does not establish a formal numerical qualification score, lead priority system, or specific qualification thresholds.
+
+## 6. Implementation Details Still to Verify
+
+The following details are not confirmed by the conversation script alone:
+
+- Whether the lead's form submission details are automatically passed into Vapi.
+- The exact Vapi configuration and conversation flow.
+- Whether Doris can access or send emails.
+- Whether a proposal is actually generated or sent after a positive response.
+- Whether call outcomes are stored in a CRM or another system.
+- Whether the workflow has been tested end to end in a live environment.
+
+## 7. Project Status
+
+**Documented:** Agent role, service pitch, discovery questions, proposal request, and yes/no closing behavior based on the supplied script.
+
+**Not yet verified:** Integrations, automated proposal delivery, CRM data handling, and live end-to-end results.
+
+This documentation describes the intended conversation workflow. It does not claim that unverified integrations or actions are operational.
