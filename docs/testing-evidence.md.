@@ -1,0 +1,68 @@
+# Doris Voice Agent — Testing Evidence
+
+## 1. Test Overview
+
+**Project:** AI Voice Lead Qualification System  
+**Assistant:** Doris  
+**Platform:** Vapi  
+**Test type:** Manual voice-call test  
+**Test status:** Test call performed; detailed results pending documentation
+
+## 2. Test Environment
+
+The assistant configuration identifies the following components:
+
+- **AI model:** OpenAI GPT-4.1 mini
+- **Voice:** Layla (Vapi)
+- **Speech transcription:** ElevenLabs Scribe v1
+- **Language:** English
+
+These settings are taken from the exported assistant configuration. They are not independent measurements of call quality or reliability.
+
+## 3. Confirmed Test Activity
+
+A manual test call was performed, and the project owner spoke directly to Doris.
+
+This confirms that a test conversation took place. The specific outcomes below must be recorded based on what was observed during that call.
+
+## 4. Test Cases and Results
+
+| Test case | Result |
+|---|---|
+| Initiated a test call and spoke to Doris | Confirmed |
+| Assistant introduction and identity | Not yet documented |
+| Speech recognition and response relevance | Not yet documented |
+| Business discovery questions | Not yet documented |
+| Proposal request and yes/no handling | Not yet documented |
+| Polite call ending | Not yet documented |
+| Email delivery after a positive response | Not verified |
+| CRM record creation or update | Not verified |
+
+"Not yet documented" means the result has not been recorded here; it does not necessarily mean the test failed.
+
+## 5. Known Limitations
+
+The current evidence does not establish that:
+
+- Proposal emails are sent automatically.
+- Lead details are saved to a CRM.
+- Call summaries or success evaluations are generated.
+- All conversation paths work reliably.
+- The system has passed comprehensive end-to-end testing.
+
+## 6. Next Testing Steps
+
+1. Verify that Doris introduces herself correctly.
+2. Ask a business-related question and assess whether the response is relevant.
+3. Check whether Doris asks discovery questions one at a time.
+4. Test both a positive and a negative response to the proposal request, if possible.
+5. Confirm that each conversation ends appropriately.
+6. Investigate email and CRM integrations separately before claiming those functions work.
+
+## 7. Evidence and Reporting
+
+Record the date of each test, the scenario, the observed behavior, the outcome, and any issues.
+
+Use fictional test data where possible. Do not publish private phone numbers, customer information, call recordings, API keys, or credentials.
+
+**Current conclusion:** A manual call with Doris was performed. Additional observed results are required before making broader claims about qualification accuracy, integration functionality, or production readiness.
