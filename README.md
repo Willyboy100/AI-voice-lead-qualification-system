@@ -10,7 +10,7 @@ This project explores how voice AI and workflow automation can help businesses c
 
 ## Workflow Overview 
 
-![Workflow Overview](AI-Voice-Lead.png) 
+![Workflow Overview](docs/AI-Voice-Lead.png) 
 
 ## Project Objectives
 
