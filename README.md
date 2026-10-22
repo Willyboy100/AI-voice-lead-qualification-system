@@ -8,6 +8,10 @@ Businesses often spend valuable time contacting new leads, asking repetitive qua
 
 This project explores how voice AI and workflow automation can help businesses collect lead information, assess prospect interest, and organize follow-up activities.
 
+## Workflow Overview 
+
+![Workflow Overview](AI-Voice-Lead.png) 
+
 ## Project Objectives
 
 - Automate lead qualification conversations.
